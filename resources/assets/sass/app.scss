@@ -1,0 +1,60 @@
+
+// Fonts
+//@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "./libs/animate";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "node_modules/font-awesome/scss/font-awesome";
+@import "node_modules/toastr/toastr";
+@import "./libs/dataTables.bootstrap";
+@import "./libs/bootstrap-datepicker";
+@import "./libs/icheck-bootstrap";
+@import "node_modules/bootstrap-select/sass/bootstrap-select";
+@import "./libs/buttons.dataTables";
+
+@media print {
+  .page-break {
+    page-break-after: always;
+  }
+}
+
+
+* {
+  border-radius: 0 !important;
+}
+
+.form-inline .form-group {
+  margin-right: 20px;
+}
+
+.plain-table.nowrap {
+  th, td {
+    white-space: nowrap;
+  }
+}
+
+.dropdown-header {
+  background-color: #e5e5e5;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #000;
+}
+
+.bordered {
+  border: 1px solid #000;
+}
+
+.p10 {
+  padding: 10px;
+}
+
+.p20 {
+  padding: 20px;
+}
+
