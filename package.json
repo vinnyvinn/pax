@@ -29,7 +29,7 @@
     "font-awesome": "^4.7.0",
     "icheck-bootstrap": "^1.0.7",
     "nan": "^2.11.1",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "toastr": "^2.1.2",
     "vue-select": "^2.5.1",
     "vuejs-datepicker": "^1.5.4"
